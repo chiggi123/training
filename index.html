@@ -1,70 +1,67 @@
-<!doctype html>
-<html>
-   <head>
-    <title>CSS</title>
-    <style>
-           .heading
-           {
-             color:rgb(0, 0, 0);
-            text-align:center;
-            font-style:italic;
-           }
-           .content
-           {
-              text-align:justify;
-color:rgb(255, 0, 0);
-font-size: 30px;
-font-style: italic;
-border: groove;
-           }
-.nav{
-background-color:pink;
-height:50px
-text-transform:uppercase;
-word-spacing:20px;
-border:groove;
-font-style:italic;
-font-size:20px;
-}
-.round-div{
-    height:200px;
-    width: 200px;
-    background-color:yellowgreen;
-    margin:auto;
-    margin-bottom:100px;
-    border:52px inset darkblue;
-    border-radius:50%;
-    border-left-color:red;
-    border-right-color:green;
-    border-bottom-color:teal;
-    border-left-style:ridge;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+ }
+ body {  
+   display: flex;  
+   justify-content: center;  
+   align-items: center;  
+   width: 100vw;  
+   height: 100vh;  
+   overflow: hidden;  
+ }  
+ .insta {  
+   width: 200px;  
+   height: 200px;  
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+   border-radius: 35px;  
+   display: grid;  
+   place-items: center;  
+ }  
+ .innerbox {  
+   width: 120px;  
+   height: 120px;  
+   border: 10px solid #fff;  
+   border-radius: 32px;  
+   display: grid;  
+   place-items: center;  
+   position: relative;  
+ }  
+ .innerbox::before {  
+   content: '';  
+   width: 45px;  
+   height: 45px;  
+   border: 10px solid #fff;  
+   border-radius: 50%;  
+   background: transparent;  
+   position: absolute;  
+ }   
+ .innerbox::after {  
+   content: '';  
+   width: 10px;  
+   height: 10px;  
+   border: 2px solid #fff;  
+   border-radius: 50%;  
+   background: #fff;  
+   position: absolute;  
+   top: 8px;  
+   right: 10px;  
+ }  
+</style>
+     
+<body>
     
 
-
-}
-         
-    </style>
-   </head>
-<body>
-<div class="nav">
-<a href=""> Home </a>
-<a href=""> About</a>
-<a href=""> Services </a>
-<a href=""> Contact </a>
-<a href=""> Career </a>
-</div>
-<h1 class="heading"><marquee behavior="" direction=""> welcome to CHIGGI WORLD!!</marquee></h1>
-<p class="content">my name is CHIRAG WADHAWAN.
-    </br>
-    my calling number is=8744807791.
-    <br>
-    my whatsapp number=9560208150.
-    <br>
-    my instagram id= _._.chiiragg._._
-    <br>
-    my snapchat id=chiiiggii
-    </p>
-    <div class="round-div">
-        </div>
+<div class="insta">  
+    <div class="innerbox">  
+    </div>  
+  </div>  
 </body>
 </html>
